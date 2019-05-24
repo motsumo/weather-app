@@ -8,7 +8,7 @@ export default function getWeather(query) {
             return response.json()
         })
         .then(function (b) {
-            content.html(b.current.temp_c)
+            content.html(b.current.temp_c + "  " + b.current.temp_f)
         })
 }
 
