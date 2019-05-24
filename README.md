@@ -1,2 +1,2 @@
 ## weather-app
-#by Kate Kamiak
+by Kate Kamiak
