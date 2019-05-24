@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container  >  * {
+            margin: 0 10;
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <span>Type a city</span>
+        <input id="input" type="text" />
+        <button class="button">Find</button>
+        <button class="my-weather">myWeather</button>
+    </div>
+   <div class="content"></div>
+</body>
+<script src="bundle.js"></script>
+</html>
