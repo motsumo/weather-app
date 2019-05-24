@@ -1,3 +1,2 @@
-# weather-app
-weather-app
-by Kate Kamiak
+## weather-app
+#by Kate Kamiak
